@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+       <header>
+    <meta name="Viewport" content="initial-scale=1, width=device-width">
+    <h2>
+</h2>
+</header>
+    <title> KhrisChronic Studios </title>
+    <Link rel="stylesheet" href="Style.css" type="text/css">
+      <link rel="icon" type="image/x-icon" href="/images/Icon.ico">
+      
+      <div id="titlecard0" style="padding-bottom: 1vw;">
+        <a href="/Sounds/The Realization + additional tracks.rar" style="position: fixed; margin-left: 50%; margin-bottom: 10vw;">Download The Album!</a>
+        <a href="https://www.khrischronic.com"><h1>KhrisChronic Studios</h1> </a>
+        </div>
+<body id="body1">
+<div id="titlecard1">
+  <iframe width="100vw" height="300vw" scrolling="no" frameborder="no" allow="autoplay" style="padding-left: 1vw;" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1533214243%3Fsecret_token%3Ds-sfCIXGI9GDQ&color=%230e99ae&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+  <iframe width="100vw" height="300vw" scrolling="no" frameborder="no" allow="autoplay" style="padding-left: 1vw;" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1533214153%3Fsecret_token%3Ds-sjuip0lJ0y6&color=%230b529a&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+  <iframe width="100vw" height="300vw" scrolling="no" frameborder="no" allow="autoplay" style="padding-left: 1vw;" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1533214669%3Fsecret_token%3Ds-JITFQjI0bOw&color=%2305a7d0&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+  <iframe width="100vw" height="300vw" scrolling="no" frameborder="no" allow="autoplay" style="padding-left: 1vw;" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1533210502%3Fsecret_token%3Ds-WRFg17NiAuv&color=%2305a7d0&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+  <iframe width="100vw" height="300vw" scrolling="no" frameborder="no" allow="autoplay" style="padding-left: 1vw;" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1533210754%3Fsecret_token%3Ds-2u3OUgUQULG&color=%2305a7d0&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+  <iframe width="100vw" height="300vw" scrolling="no" frameborder="no" allow="autoplay" style="padding-left: 1vw;" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1533210973%3Fsecret_token%3Ds-X594iNpmv0O&color=%2305a7d0&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+  <iframe width="100vw" height="300vw" scrolling="no" frameborder="no" allow="autoplay" style="padding-left: 1vw;" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1533210223%3Fsecret_token%3Ds-VwjBMK4xwM0&color=%2305a7d0&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+</div>
+  </div> 
+</div>
+  <div id="CountDownTitle">
+    <p id="CountDownTitle">Countdown Till Next Release</p>
+  </div>
+  
+  <main>
+  <p id="countdown"></p>
+  <script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("July 1, 2023 06:00:00").getTime();
+  
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+  
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("countdown").innerHTML = "EXPIRED";
+  }
+  }, 1000);
+  </script>
+  </main>
+</ul>
+</p>
+</body>
+</html>
